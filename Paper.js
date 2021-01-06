@@ -9,7 +9,7 @@ class Paper {
     World.add(world, this.body);
 
     this.height = radius * 2;
-    this.image = loadImage("Images/paper.png");
+    this.image = loadImage("paper.png");
     this.width = radius * 2;
   }
 
