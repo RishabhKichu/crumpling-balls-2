@@ -17,7 +17,7 @@ function setup() {
   w2 = new Dustbin(width / 2 + 380, 540, 20, 150);
   w3 = new Dustbin(width / 2 + 300, 570, 150, 20);
 
-  DustbinImg = loadImage("Images/dustbingreen.png");
+  DustbinImg = loadImage("dustbingreen.png");
   Engine.run(engine);
 }
 
